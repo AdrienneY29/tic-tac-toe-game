@@ -59,7 +59,7 @@ public class TicTacToeClass
     }
     public boolean isCat()
     {
-        if (turns == 9 && !isWinner('X') && !isWinner('0')) {
+        if (turns == 9 && !isWinner('X') && !isWinner('O')) {
             return true;
         } else {
             return false;
